@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #landing-page, #posts-page {
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 5px 0;
+  }
+  
+  input, textarea {
+    margin: 5px 0 15px 0;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  [data-theme="dark"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  [data-theme="dark"] button {
+    background-color: #444;
+    color: #fff;
+  }
+  
